@@ -24,10 +24,10 @@ Good enough for tinkering and personal usage, and reasonably secure.
     - [x] Logging
     - [x] Alerting
 - [x] SSO
-- [ ] Reasonably secure
+- [x] Reasonably secure
     - [x] Automated certificate management
     - [x] Declarative secret management
-    - [ ] Replace all default passwords with randomly generated ones
+    - [x] Replace all default passwords with randomly generated ones
     - [x] Expose services to the internet securely with Cloudflare Tunnel
 - [x] Only use open-source technologies (except external managed services in `./external`)
 - [x] Everything is defined as code
@@ -50,7 +50,7 @@ Can be used in "production" (for family or even small scale businesses).
     - [x] Bare-metal OS rolling upgrade
     - [x] Kubernetes version rolling upgrade
     - [x] Application version upgrade
-    - [ ] Encrypted backups
+    - [x] Encrypted backups
     - [ ] Secrets rotation
     - [x] Self healing
 - [ ] Secure by default
@@ -71,19 +71,13 @@ Can be used in "production" (for family or even small scale businesses).
 - [ ] Clear upgrade path
 - [ ] Additional applications
     - [ ] Matrix with bridges
-    - [ ] VPN server
+    - [x] VPN server
     - [ ] PeerTube
     - [x] Blog
-    - [ ] [Development dashboard](https://github.com/khuedoan/homelab-backstage)
 
 ## Unplanned
 
 Nice to have
 
-- [ ] Addition applications
-    - [ ] Mail server
 - [ ] Air-gap install
 - [ ] Automated testing
-- [ ] Security audit
-- [ ] Cluster API ([last attempt](https://github.com/khuedoan/homelab/pull/2))
-- [ ] Split DNS (requires a better router)
